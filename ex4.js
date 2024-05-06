@@ -14,7 +14,7 @@ if (media >= 7){
     console.log("O aluno está aprovado!")
 }
 
-else if (media > 5 && media < 7)
+else if (media >= 5 && media < 7)
     console.log("O aluno está de recuperação.")
 
 else {
