@@ -7,4 +7,4 @@ let b = 0
 while(a <= 100){
     b += a++
 }
-console.log(b);
+console.log("A soma dos numros de 1 a 100 é: " + b);
