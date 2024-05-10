@@ -103,7 +103,7 @@ function exercicioImparouPar() {
 let opcao;
 
 while (opcao != 0) {
-    opcao = parseInt(prompt("Escolha qual o exercicio que você deseja executar: \n0 - Digite 0 para sair do programa. \n1 - ✖️​ TABUADA ✖️​\n2 - ​🔢​ FIBONACCI ​🔢​ \n3 ​​​✨​ SOMA DOS 10 NUMEROS ​​​✨​ \n4 - ​🔞​ MENOR DE 18 ​🔞​ \n5 - ​✅​ NOTAS ESCOLARES ​✅​ \n6 - ​​​💢​ IMPAR OU PAR ​​​💢​"))
+    opcao = parseInt(prompt("Escolha qual o exercicio que você deseja executar: \n0 - Digite 0 para sair do programa. \n1 - ✖️​ TABUADA ✖️​\n2 - ​🔢​ FIBONACCI ​🔢​ \n3 - ​​​✨​ SOMA DOS 10 NUMEROS ​​​✨​ \n4 - ​🔞​ MENOR DE 18 ​🔞​ \n5 - ​✅​ NOTAS ESCOLARES ​✅​ \n6 - ​​​💢​ IMPAR OU PAR ​​​💢​"))
     switch (opcao) {
         case 1:
             exercicioTabuada(console.log("Tabuada!!!"));
