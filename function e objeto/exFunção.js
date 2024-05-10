@@ -6,6 +6,7 @@
 // O usuário deverá digitar 0 para sair do menu.
 
 function exercicioTabuada() {
+    alert("Pro começo da nossa lista de exercicios bora de tabuada! ​🤪​")
     let numTabuada = parseInt(prompt("Digite um numero para ver a sua tabuda até o 10: "))
 
     if (!isNaN(numTabuada)) {
@@ -21,6 +22,7 @@ function exercicioTabuada() {
 
 
 function exercicioFibonacci() {
+    alert("Bora de função Fibonacci?? \n O exercicio que todos adoraram! 🥰🥰​🥰​​")
     let a = 0
     let b = 1
     let c = 0
@@ -37,7 +39,7 @@ function exercicioFibonacci() {
 
 
 function exercicioSomaDos100Numeros() {
-    alert("Vamos ver o resultado da soma dos numeros 1 a 100! \n O calculo é 1 + 2 + 3... e por vai!")
+    alert("Vamos ver o resultado da soma dos numeros 1 a 100! 💯​ \n O calculo é 1 + 2 + 3... e por vai!")
     let a = 1
     let b = 0
 
@@ -66,7 +68,7 @@ function exercicioMenor18() {
 
 
 function exercicioNotasEscolares() {
-    alert("Vamos calcular a media das notas dos alunos! Digite as primeiras 4 notas para começar.")
+    alert("Vamos calcular a media das notas dos alunos! ​🤓​ Digite as primeiras 4 notas para começar.")
     let n1 = parseFloat(prompt("Digite a primeria nota do aluno: "))
     let n2 = parseFloat(prompt("Digite a segunda nota do aluno: "))
     let n3 = parseFloat(prompt("Digite a terceira nota do aluno: "))
@@ -107,8 +109,12 @@ function exercicioImparouPar() {
 let opcao;
 
 while (opcao != 0) {
-    opcao = parseInt(prompt("Escolha qual o exercicio que você deseja executar: \n Digite 0 para sair do programa. \n1 - ✖️​ TABUADA ✖️​\n2 - ​🔢​ FIBONACCI ​🔢​ \n3 - ​​​✨​ SOMA DOS 10 NUMEROS ​​​✨​ \n4 - ​🔞​ MENOR DE 18 ​🔞​ \n5 - ​✅​ NOTAS ESCOLARES ​✅​ \n6 - ​​​💢​ IMPAR OU PAR ​​​💢​"))
+    opcao = parseInt(prompt("Escolha qual o exercicio que você deseja executar: \n0 Digite 0 para sair do programa. \n1 - ✖️​ TABUADA ✖️​\n2 - ​🔢​ FIBONACCI ​🔢​ \n3 - ​​​✨​ SOMA DOS 10 NUMEROS ​​​✨​ \n4 - ​🔞​ MENOR DE 18 ​🔞​ \n5 - ​✅​ NOTAS ESCOLARES ​✅​ \n6 - ​​​💢​ IMPAR OU PAR ​​​💢​"))
     switch (opcao) {
+        case 0:
+            console.log("Saiuuuu! \n Agora pra voltar pra lista de exercicios de um F5 pra recarregar a página.");
+            break;
+
         case 1:
             exercicioTabuada(console.log("​😎​ Tabuada!!! ​😎​"));
             break;
