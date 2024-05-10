@@ -88,45 +88,45 @@ function exercicioNotasEscolares() {
 function exercicioImparouPar() {
     let numero = prompt("Digite um numero: ")
     if (numero % 2 === 0) {
-        console.log("O numero é par.")
+        console.log("O numero " + numero + " é par.")
     }
 
     else if (numero % 2 === 1) {
-        console.log("O numero é impar.")
+        console.log("O numero " + numero + " é impar.")
     }
 
     else {
-        console.log("O valor digitado não é um numero.")
+        console.log("O valor " + numero + " digitado não é um numero.")
     }
 }
 
 let opcao;
 
 while (opcao != 0) {
-    opcao = parseInt(prompt("Escolha qual o exercicio que você deseja executar: \n0 - Digite 0 para sair do programa. \n1 - ✖️​ TABUADA ✖️​\n2 - ​🔢​ FIBONACCI ​🔢​ \n3 - ​​​✨​ SOMA DOS 10 NUMEROS ​​​✨​ \n4 - ​🔞​ MENOR DE 18 ​🔞​ \n5 - ​✅​ NOTAS ESCOLARES ​✅​ \n6 - ​​​💢​ IMPAR OU PAR ​​​💢​"))
+    opcao = parseInt(prompt("Escolha qual o exercicio que você deseja executar: \n Digite 0 para sair do programa. \n1 - ✖️​ TABUADA ✖️​\n2 - ​🔢​ FIBONACCI ​🔢​ \n3 - ​​​✨​ SOMA DOS 10 NUMEROS ​​​✨​ \n4 - ​🔞​ MENOR DE 18 ​🔞​ \n5 - ​✅​ NOTAS ESCOLARES ​✅​ \n6 - ​​​💢​ IMPAR OU PAR ​​​💢​"))
     switch (opcao) {
         case 1:
-            exercicioTabuada(console.log("Tabuada!!!"));
+            exercicioTabuada(console.log("​😎​ Tabuada!!! ​😎​"));
             break;
 
         case 2:
-            exercicioFibonacci(console.log("Exercício Fibonacci... desgra-"));
+            exercicioFibonacci(console.log("​💢​ Exercício Fibonacci... pior exercicios de todos! ​💢​"));
             break;
 
         case 3:
-            exercicioSomaDos100Numeros(console.log("Soma de 1 a 100"));
+            exercicioSomaDos100Numeros(console.log("​​​✨​ Soma de 1 a 100 ​​​✨​"));
             break;
 
         case 4:
-            exercicioMenor18(console.log("Menor de 18"));
+            exercicioMenor18(console.log("👀​ Menor de 18 👀​"));
             break;
 
         case 5:
-            exercicioNotasEscolares(console.log("Notas Escolares"));
+            exercicioNotasEscolares(console.log("💯​ Notas Escolares 💯​"));
             break;
 
         case 6:
-            exercicioImparouPar(console.log("Impar ou par"));
+            exercicioImparouPar(console.log("​🫣​ Impar ou par ​🫣​"));
             break;
 
     }
