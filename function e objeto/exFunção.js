@@ -37,6 +37,7 @@ function exercicioFibonacci() {
 
 
 function exercicioSomaDos100Numeros() {
+    alert("Vamos ver o resultado da soma dos numeros 1 a 100! \n O calculo é 1 + 2 + 3... e por vai!")
     let a = 1
     let b = 0
 
@@ -50,6 +51,7 @@ function exercicioSomaDos100Numeros() {
 
 
 function exercicioMenor18() {
+    alert("Será que você é menor de idade?? 👀​👀​ \n Digite sua idade no programa para conferir!")
     let idade = 0
 
     while (idade < 18) {
@@ -64,6 +66,7 @@ function exercicioMenor18() {
 
 
 function exercicioNotasEscolares() {
+    alert("Vamos calcular a media das notas dos alunos! Digite as primeiras 4 notas para começar.")
     let n1 = parseFloat(prompt("Digite a primeria nota do aluno: "))
     let n2 = parseFloat(prompt("Digite a segunda nota do aluno: "))
     let n3 = parseFloat(prompt("Digite a terceira nota do aluno: "))
@@ -72,20 +75,21 @@ function exercicioNotasEscolares() {
     let media = (n1 + n2 + n3 + n4) / 4;
 
     if (media >= 7) {
-        console.log("O aluno está aprovado!")
+        console.log("A nota do aluno foi: " + media + ". O aluno está aprovado!")
     }
 
     else if (media >= 5 && media < 7)
-        console.log("O aluno está de recuperação.")
+        console.log("A nota do aluno foi: " + media + ". O aluno está de recuperação.")
 
     else {
-        console.log("O aluno está reprovado.")
+        console.log("A nota do aluno foi: " + media + ". O aluno está reprovado.")
     }
 }
 
 
 
 function exercicioImparouPar() {
+    alert("Vamos ver se o numero que você escolher é impar ou par!")
     let numero = prompt("Digite um numero: ")
     if (numero % 2 === 0) {
         console.log("O numero " + numero + " é par.")
@@ -118,7 +122,7 @@ while (opcao != 0) {
             break;
 
         case 4:
-            exercicioMenor18(console.log("👀​ Menor de 18 👀​"));
+            exercicioMenor18(console.log("​🔞​​ Menor de 18 ​🔞​​"));
             break;
 
         case 5:
