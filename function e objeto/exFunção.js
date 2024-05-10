@@ -14,7 +14,7 @@ function exercicioTabuada() {
             console.log(numTabuada + " x " + contador + " = " + (numTabuada * contador));
         }
     } else {
-
+        console.log("Numero invalido. Digite outro numero.")
     }
 }
 
@@ -45,6 +45,8 @@ function exercicioSomaDos100Numeros() {
     }
     console.log("A soma dos numros de 1 a 100 é: " + b);
 }
+
+
 
 
 function exercicioMenor18() {
@@ -98,33 +100,34 @@ function exercicioImparouPar() {
     }
 }
 
+let opcao;
 
+while (opcao != 0) {
+    opcao = parseInt(prompt("Escolha qual o exercicio que você deseja executar: \n0 - Digite 0 para sair do programa. \n1 - ✖️​ TABUADA ✖️​\n2 - ​🔢​ FIBONACCI ​🔢​ \n3 ​​​✨​ SOMA DOS 10 NUMEROS ​​​✨​ \n4 - ​🔞​ MENOR DE 18 ​🔞​ \n5 - ​✅​ NOTAS ESCOLARES ​✅​ \n6 - ​​​💢​ IMPAR OU PAR ​​​💢​"))
+    switch (opcao) {
+        case 1:
+            exercicioTabuada(console.log("Tabuada!!!"));
+            break;
 
+        case 2:
+            exercicioFibonacci(console.log("Exercício Fibonacci... desgra-"));
+            break;
 
-let opcao = prompt("Escolha qual o exercicio que você deseja executar: \n1 EXERCÍCIO DA TABUADA!!\n2 EXERCICIO FIBONACCI ")
-switch (opcao) {
-    case "1":
-        exercicioTabuada(console.log("Tabuada!!!"));
-        break;
+        case 3:
+            exercicioSomaDos100Numeros(console.log("Soma de 1 a 100"));
+            break;
 
-    case "2":
-        exercicioFibonacci(console.log("Exercício Fibonacci... desgra-"));
-        break;
+        case 4:
+            exercicioMenor18(console.log("Menor de 18"));
+            break;
 
-    case "3":
-        exercicioSomaDos100Numeros(console.log("Soma de 1 a 100"));
-        break;
+        case 5:
+            exercicioNotasEscolares(console.log("Notas Escolares"));
+            break;
 
-    case "4":
-        exercicioMenor18(console.log("Menor de 18"));
-        break;
+        case 6:
+            exercicioImparouPar(console.log("Impar ou par"));
+            break;
 
-    case "5":
-        exercicioNotasEscolares(console.log("Notas Escolares"));
-        break;
-
-    case "6":
-        exercicioImparouPar(console.log("Impar ou par"));
-        break;
-
+    }
 }
