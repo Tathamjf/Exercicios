@@ -57,13 +57,13 @@ function exercicioMenor18() {
     let idade = 0
 
     while (idade < 18) {
-        idade = parseInt(prompt("Digite a sua idade (maior de 18 anos): "))
+        idade = parseInt(prompt("Digite a sua idade: "))
         if (idade < 18) {
-            console.log("Você é menor de idade, digite sua idade novamente: ")
+            console.log("Você é menor de idade, digite sua idade novamente: \n ENsino Medio ta bom ou ta uma coisas maravilhosamente ruim? ")
         }
     }
 
-    console.log("Você é maior de idade!")
+    console.log("Você é maior de idade! \n Vish... cuidado pra n[ao virar um Tadeu da vida ​🤪​ \n Brincadeira kkkkkk")
 }
 
 
